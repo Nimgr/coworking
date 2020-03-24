@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,700&display=swap&subset=cyrillic');
+
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../../fonts/GothamProRegular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../../fonts/GothamProBold.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProLight";
+    src: url("../../fonts/GothamProLight.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProLightItalic";
+    src: url("../../fonts/GothamProLightItalic.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}

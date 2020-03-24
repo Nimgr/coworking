@@ -1,0 +1,76 @@
+.specificity__title {
+    margin-bottom: 64px;
+}
+
+.specificity__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specificity__avatar {
+    margin-bottom: 35px;
+}
+
+.specificity__avatar-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    background-color: #2b2b40;
+    border-radius: 100%;
+}
+
+.specificity__content {
+    text-align: center;
+    width: 210px;
+}
+
+.specificity__name {
+    color: #262626;
+    font-family: "GothamProBold";
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 29px;
+}
+
+.specificity__note {
+    color: #262424;
+    font-family: "GothamProRegular";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.specificity__text {
+    color: #262424;
+    font-family: "GothamProRegular";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.specificity__text-description::before {
+    content: "";
+    display: flex;
+    width: 5px;
+    height: 5px;
+    background-color: #b03664;
+    border-radius: 50%;
+    margin-right: 35px;
+}
+
+.specificity__text-point {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.specificity__text-description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

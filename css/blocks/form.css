@@ -1,0 +1,175 @@
+.form {
+    padding: 0 5%;
+}
+
+.form__container {
+    max-width: 700px;
+}
+
+.form__modul {
+    background-color: #f4f4f4;
+}
+
+.form__title {
+    color: #262424;
+    font-family: "GothamProBold";
+    font-size: 49px;
+    font-weight: 700;
+    margin-left: 70px;
+}
+
+.form__element {
+    margin: 20px 70px 50px 70px;
+}
+
+.form__content {
+    padding-bottom: 50px;
+}
+
+.form__elem-title {
+    color: #262424;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form__row:last-child {
+    margin-bottom: 0;
+}
+
+.form__row-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__block {
+    flex: 1;
+    margin-left: 23px;
+}
+
+.form__block:first-child {
+    margin-left: 0;
+}
+
+.form__elem-title {
+    margin-bottom: 10px;
+    color: #262424;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__input {
+    border: 1px solid transparent;
+    background: #ffffff;
+    width: 100%;
+    padding: 12px 9px;
+    border-radius: 3px;
+}
+
+.form__input:focus {
+    outline: none;
+    border: 1px solid #cb2376;
+}
+
+.form__input--textarea {
+    resize: vertical;
+}
+
+.form__buttons-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-controls__title {
+    margin-bottom: 10px;
+    color: #262424;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.radio {
+    display: flex;
+}
+
+.radio__input{
+    display: none;
+}
+.radio__input:checked + .radio__fake{
+    border-color: #cb2376;
+}
+
+.radio__input:checked + .radio__fake + .radio__text{
+    color: #cb2376;
+}
+
+.radio__input:checked + .radio__fake::before{
+    width: 8px;
+    height: 8px;
+}
+
+.radio__label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.radio__fake{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+}
+.radio__fake::before{
+    content: '';
+    display: flex;
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+    background: #cb2376;
+    transition: .3s;
+}
+
+.radio__text{
+    display: flex;
+    margin-left: 10px;
+    color: #262424;
+    font-family: "GothamProLight";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form__buttons {
+    border: none;
+}
+
+.btn {
+    background-color: #2b2b40;
+    color: #ffffff;
+    font-family: "GothamProBold";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    width: 139px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #cb2376;
+    border: none;
+}

@@ -1,0 +1,49 @@
+.reviews {
+    margin-bottom: 54px;
+}
+
+.reviews__title {
+    margin-bottom: 50px;
+    font-family: "GothamProBold";
+    font-weight: 700;
+}
+
+.reviews__item {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.reviews__content {
+    color: #262424;
+    width: 640px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews__username {
+    color: #262424;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.reviews__date {
+    color: #262424;
+    font-family: "Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.reviews__text {
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 30px;
+    color: #656464;
+}
+
+.reviews__avatar {
+    display: inline-block;
+    vertical-align: top;
+}

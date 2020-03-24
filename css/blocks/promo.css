@@ -1,0 +1,29 @@
+.promo {
+    margin-bottom: 57px;
+    background-color: #27273E;
+}
+
+.promo__container {
+    max-width: 1043px;
+    background: url('../../img/pattern.png');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.promo__text {
+    width: 550px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: "GothamProLight";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.promo__text-adv {
+    color: #cb2376;
+    font-family: "GothamProBold";
+    font-weight: 700;
+}

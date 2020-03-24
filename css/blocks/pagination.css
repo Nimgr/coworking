@@ -1,0 +1,72 @@
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__display {
+    display: flex;
+    margin-left: 276px;
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.pagination__controlls {
+    display: flex;
+    align-items: center;
+    color: #262424;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 29px;
+    font-family: "Roboto";
+}
+
+.pagination__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8px;
+    height: 12px;
+    background-color: white;
+    background: url('../../img/arrow_left.png') no-repeat;
+}
+
+.pagination__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8px;
+    height: 12px;
+    background-color: white;
+    margin-left: 18px;
+    background: url('../../img/arrow_right.png') no-repeat;
+}
+
+.pagination__list {
+    display: flex;
+    color: #262424;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 18px;
+}
+
+.pagination__item {
+    display: flex;
+    color: #262424;
+}
+
+.pagination__link {
+    display: flex;
+    color: #262424;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 9px;
+}
+
+.pagination__item--active .pagination__link {
+    background-color: #2b2b40;
+    border-radius: 3px;
+    color: #ffffff;
+}
+

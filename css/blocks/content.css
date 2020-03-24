@@ -1,0 +1,15 @@
+.content-text {
+    flex: 1;
+}
+
+.content-text__reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 880px;
+    padding-left: 20px;
+}
+
+.content-text__specificity {
+    margin-bottom: 93px;
+}

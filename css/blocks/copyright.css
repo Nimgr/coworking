@@ -1,0 +1,22 @@
+.copyright {
+    width: 255px;
+    color: #ffffff;
+    font-family: "GothamProRegular";
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright__link {
+    color: #ffffff;
+    font-family: "GothamProBold";
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.copyright__author {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "GothamProBold";
+    font-weight: 700;
+    width: 130px;
+}

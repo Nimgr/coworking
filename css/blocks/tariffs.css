@@ -1,0 +1,65 @@
+.tariffs {
+    margin-bottom: 73px;
+}
+
+.tariffs__title {
+    margin-bottom: 43px;
+}
+
+.tariffs__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tariffs__item {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.tariffs__avatar {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.tariffs__avatar-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #8ad0f6;
+    font-family: "GothamProBold";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tariffs__avatar-titlebold {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "GothamProBold";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #cb2376;
+}
+
+.tariffs__name {
+    font-family: "GothamProBold";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #262424;
+    margin-bottom: 10px;
+}
+
+.tariffs__text {
+    color: #262424;
+    font-family: "GothamProLight";
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}

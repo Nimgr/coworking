@@ -1,0 +1,26 @@
+.partners__title {
+    margin-bottom: 42px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.partners__logo {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    margin-bottom: 52px;
+}
+
+.partners__logo-img {
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.partners__logo-images:hover .partners__logo-img {
+    filter: grayscale(0)
+}
